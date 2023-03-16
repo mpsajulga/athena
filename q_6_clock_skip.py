@@ -17,5 +17,5 @@ print(f"There was {total_hours} hours from Friday 12pm to Monday 6pm.")
 print(f"There was {total_hours_in_half_hours} half hours from Friday 12pm to Monday 6pm.")
 
 x = 468/total_hours_in_half_hours #seconds
-print(f"There clock was running late by 468 seconds. We then divide it by 156 to convert the half hours into seconds.")
+print(f"There clock was running late by 468 seconds. We then divide it by {total_hours_in_half_hours} to convert the half hours into seconds.")
 print(f"The clock skipped {x} seconds for every 30 minutes from Fri 12pm to Mon 6pm.")
