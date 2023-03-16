@@ -19,6 +19,6 @@ total_price_increase = total_hike - original_price #32k-24k
 
 #find the percentage
 
-total_percent = (12000/20000)*100
+total_percent = int((total_price_increase/original_price)*100)
 
 print(f"The price goes up to {total_percent} percent of its original price.")
