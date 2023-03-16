@@ -5,4 +5,4 @@ width = int(input("Input width: ")) #12
 
 formula_square_meter = length * width
 
-print(f"{formula_square_meter} m2")
+print(f"{formula_square_meter} m\u00b2")

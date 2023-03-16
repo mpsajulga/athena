@@ -21,9 +21,9 @@ print(f"Jim's ratio, Mary's ratio, and Sally's ratio {jim_ratio}:{mary_ratio}:{s
 add_ratio = jim_ratio+mary_ratio+sally_ratio
 print(add_ratio)
 
-#Divide profits by 10
+#Divide profits by the total ratio
 
-profits_divided_by_the_total_ratio = profits/10
+profits_divided_by_the_total_ratio = profits/add_ratio
 
 jim_profits = jim_ratio * profits_divided_by_the_total_ratio
 mary_profits = mary_ratio * profits_divided_by_the_total_ratio
