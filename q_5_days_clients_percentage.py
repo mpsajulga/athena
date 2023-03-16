@@ -14,6 +14,6 @@ print(f"30% of his clients is equal to {thirty_percent_clients} clients.")
 
 #divide
 
-total_of_days = thirty_percent_clients / number_of_clients_per_day
+total_of_days = int(thirty_percent_clients / number_of_clients_per_day)
 
-print(f"The electrician will take {total_of_days} to see {thirty_percent_clients}% of his clients.")
+print(f"The electrician will take {total_of_days} days to see {thirty_percent_clients}% of his clients.")
