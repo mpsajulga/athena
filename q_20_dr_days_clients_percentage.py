@@ -5,7 +5,6 @@ number_of_clients_per_day = int(input("Total number of clients that he can see p
 percentage_of_clients_he_needs_to_see = int(input("Percentage of clients that he needs to see:__%: ")) #40%
 percent_to_decimal = percentage_of_clients_he_needs_to_see/100
 
-print(percent_to_decimal)
 #multiply
 
 percentage_of_clients = int(clients * percent_to_decimal)
